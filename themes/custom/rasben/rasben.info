@@ -7,7 +7,7 @@
   engine      = phptemplate
   screenshot  = screenshot.png
 
-scripts[] = js/build/base.js
+scripts[] = js/build/base.min.js
 
 plugins[panels][layouts] = layouts
 
