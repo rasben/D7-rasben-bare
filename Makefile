@@ -6,6 +6,7 @@ ADMIN_PASSWORD=root
 DRUSH_MAKEFILE=drush-make.make
 INDEXES=default_node_index
 DEBUG=--debug
+DRUSH=drush
 
 default:
 
