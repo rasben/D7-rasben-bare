@@ -78,6 +78,12 @@ projects[media][download][type] = "git"
 projects[media][download][url] = "http://git.drupal.org/project/media.git"
 projects[media][download][tag] = "7.x-1.4"
 
+projects[module_filter][type] = "module"
+projects[module_filter][subdir] = "contrib"
+projects[module_filter][download][type] = "git"
+projects[module_filter][download][url] = "http://git.drupal.org/project/module_filter.git"
+projects[module_filter][download][tag] = "7.x-2.0"
+
 projects[panels][type] = "module"
 projects[panels][subdir] = "contrib"
 projects[panels][download][type] = "git"
@@ -128,6 +134,7 @@ projects[link][download][tag] = "7.x-1.4"
 
 ; themes and related
 
+projects[mothership][type] = "theme"
 projects[mothership][download][url] = http://git.drupal.org/project/mothership.git
 projects[mothership][download][tag] = 7.x-2.10
 projects[mothership][subdir] = contrib
