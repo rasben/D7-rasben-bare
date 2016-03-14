@@ -13,7 +13,7 @@ You must first of all install Drush locally. Afterwards, when you're in the root
 
 `drush si`
 
-(Obviously you need to edit the setting files to match your sites name instead of D7_rasben-bare)
+(Obviously you need to edit the setting files and Drush parameters to match your sites name instead of D7_rasben-bare / Site-install)
 
 To download all the contrib modules and themes, run this command:
 
