@@ -26,6 +26,16 @@ You should look in the `Makefile` as it has configuration info such as the datab
 
 That's it. Check out the `Makefile` for more useful commands - it will grow as I go :) Some commands are module-dependant, so not all will work.
 
+"But I still need to enable all the modules!"
+Well, if you are feeling particular lazy, I've included the latest bare db dump in the db_setup folder. You can import it so quickly get the site up and running. I cant guarantee that there'll never be some test nodes included, but for the most part it'll be clean.
+Just bare in mind that I prefer to enable a module too much than one too little :)
+There's a make command for easily importing the dbdump:
+
+`make import-db`
+
+If you want to make a total clean setup (takes a bit longer), you can run this:
+`make clean-setup`
+
 ##Technologies used
 
 **General**
