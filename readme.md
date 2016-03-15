@@ -19,6 +19,11 @@ To download all the contrib modules and themes, run this command:
 
 `make drush-make`
 
+There is also a command named
+
+`make drush-make-clean` - This will run a special `.makefile` (look in drush_settings) where you can include your own sandbox modules, that you don't want to be overridden unless you are doing a clean wipe.
+Checkout the difference between `drush_settings/drush-make.make` and `drush_settings/drush-make-clean.make` (in the bottom of the file)
+
 As you can see, I'm using a `Makefile` for easy access to these commands. If the above command failed because you are using some kind of OS that does not support `Makefile`s, just look in the file and you'll see the command.
 Also, as a quick tip, if you want to add your own commands, remember that `make` will fail if the `Makefile` is not tab-indented
 

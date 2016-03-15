@@ -140,11 +140,6 @@ projects[mothership][download][tag] = 7.x-2.10
 projects[mothership][subdir] = contrib
 projects[mothership][download][type] = git
 
-projects[rasben][type] = "theme"
-projects[rasben][download][url] = https://github.com/rasben/d7-rasben-bare-theme.git
-projects[rasben][subdir] = custom
-projects[rasben][download][type] = git
-
 
 ; libraries
 
